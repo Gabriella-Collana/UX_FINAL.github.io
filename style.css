@@ -1,0 +1,226 @@
+body {
+    color: #B2B4B0;
+    background-color: #26362E;
+    margin: 0;
+}
+
+/*NAVBAR*/
+#nv-txt{
+  font-family: sans-serif;
+  font-size: 16pt;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+#login{
+  background-color: #D8E951;
+  color: #26362E;
+  height: 30px;
+  width: 135px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+ 
+}
+#search-bar{
+  border: #D8E951;
+  border-style: solid;
+  height: 30px; 
+  width: 200px;
+
+}
+
+
+/*HERO*/
+      /*
+        #hero{
+            height: 450px;
+            width: 100%;
+            background-color: #26362E;
+            
+        }
+        */
+
+        /*the stats on the heading*/
+       
+        #hero-txt{
+          height: 113px;
+          width: 407px;
+        }
+
+        #join {
+          background-color: #D8E951;
+          color: #26362E;
+          padding-top: 20px;
+          padding-bottom: 10px;
+          width: 398px;
+          height: 78px;
+          font-family: sans-serif;
+          letter-spacing: 2px;
+          margin-top: 50px;
+        
+        }
+
+        #numbers{
+        letter-spacing: 2px;
+         font-weight: 100;
+         
+        }
+        
+        #hero-vector{
+            margin-top: -20px;
+            height: 716px;
+           
+        }
+        #lvl-up{
+          color: #B2B4B0;
+          letter-spacing: 5px;
+         
+          }
+
+          
+/*RESPONSIVE NAV STUFF*/
+@media only screen and (max-width: 600px) {
+  #logo{
+  display:none;
+            }
+}
+@media only screen and (min-width: 600px) {
+  #logo{
+    display:none;
+              }
+}
+@media only screen and (min-width: 992px) {
+  #logo{
+    display:block;
+              }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #hero {
+    
+  }
+  .container {
+
+  }
+}
+
+
+
+/*END*/
+
+
+@media only screen and (max-width: 992px) {
+    #hero{
+        height: 400px;
+    }
+}
+
+/*hero image bar responsive section*/
+@media only screen and (max-width: 992px) {
+    #button-hero {
+       display: none;
+    }
+}
+
+
+ #tan {
+    background-color: #F1F0E8;
+ }
+ @media only screen and (max-width: 768px) {
+ #features {
+    height: 400px;
+ }
+   }
+
+/*FEATURES*/
+#features{
+  height:750px;
+  width: 1050px;
+  object-fit: fill;
+}
+#mission {
+  letter-spacing: 2px;
+}
+
+
+/*COURSES*/
+   #course-btn {
+    background-color: #26362E;
+    color: #D8E951;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 398px;
+    height: 78px;
+    font-family: sans-serif;
+    font-weight: 5;
+    letter-spacing: 3px;
+    margin-top: 50px;
+  
+  }
+
+.polygon{
+ height: 40px;
+ width:40px;
+ margin-top: 200px;
+}
+
+#subheading{
+color: #26362E;
+}
+
+
+/*CARD Carousel*/
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card-img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .card {
+    margin: 0 1.5em;
+    text-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+ 
+  #dots{
+    width:115px;
+    height:30px;
+
+  }
+  #default-alien{
+    height: 100px;
+    width: 100px;
+  }
+
+  /*CARD END*/
+
+  #join:hover, h1:hover, a:hover {
+    box-shadow: #495A35 -15px 10px 0px -2px;
+  }
+  #login:hover, h1:hover, a:hover {
+    box-shadow: #495A35 -15px 10px 0px -2px;
+  }
+ button:hover, h1:hover, a:hover {
+    box-shadow:none;
+  }
+  #course-btn:hover, h1:hover, a:hover {
+    box-shadow: #D8E951;
+  }
+  /*TESTIMONIALS*/
+#quote {
+
+}
+#Student-Testimonials {
+  opacity: 100%;
+  z-index: 1;
+  height: 200px;
+}
+#ship {
+  position: absolute;
+  opacity: 50%;
+  z-index: 0;
+  height: 850px;
+  width: 634px;
+}
